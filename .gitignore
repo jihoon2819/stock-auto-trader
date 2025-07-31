@@ -1,0 +1,25 @@
+# 가상환경 무시
+venv/
+.env/
+__pypackages__/
+*.egg-info/
+
+# 캐시/컴파일 파일 무시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# IDE 및 시스템 파일 무시
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 엑셀/데이터/모델 결과 등 무시 (필요 시)
+*.csv
+*.xlsx
+*.sqlite3
+*.pkl
+*.h5
